@@ -1,17 +1,33 @@
-*
+* /* acessa todas as propriedades*/
 {
+    
     margin: 0;
     padding: 0;
 }
 
 body
 {
-    background-color: #000000;
-    color: #F6F6F6;
+    
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #000000; /*define a cor da tela de fundo*/
+    color: #F6F6F6; /*define a dor da fonte como branco*/
     
 }
 
-.titulo
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* evita espaço extra embaixo da imagem */
+}
+
+.conteudo
+{
+    display: flex;
+    align-items: center;
+}
+.titulo /*acessa as propriedades da classe titulo criado no documento html*/
 {
     color: #22D4FD;
 }
